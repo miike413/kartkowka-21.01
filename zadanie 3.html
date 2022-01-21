@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+    function helikopter(marka,rok,cena,kraj,typ_pancerza)
+    {
+        this.marka= marka;
+        this.rok=rok;
+        this.cena=cena;
+        this.kraj=kraj;
+        this.typ_pancerza=typ_pancerza;
+        
+    }
+    
+    SuperZwyklyHelikopter = new helikopter("BMW", 2000, 32100000, " Germany",  "twardy",);
+    SuperSzybkiHelikopter = new helikopter ("Drakecompany",2123, 23400000, " CANADA", "twardy", );
+   SuperRosyjskiHelikopter = new helikopter("Ford", 2008, 53000000, " USA",  "twardy",);
+   
+    
+    document.write(SuperZwyklyHelikopter.marka + " marka marzeń przygotowała się i nareszcie wyszła na rynek i cena startowa wynosi: " + SuperZwyklyHelikopter.cena + ". Według najnowszych badań rynkowych  " + SuperRosyjskiHelikopter.marka + " szykuje się na wypuszczenie swojego własnegpo helikopteru  na rynek w cenie:" + SuperRosyjskiHelikopter.cena )
+   
+    
+    
+    </script>
+<body>
+    
+</body>
+    </html>
+    
